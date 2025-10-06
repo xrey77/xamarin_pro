@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{24687141-8DAD-4C24-BABD-0DF764E3E645}|Default">
+  <MonoDevelop.Ide.ItemProperties.protech.ios PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.0E5AD415-F532-4E3E-941F-9B6E65C90186" />
+  <MonoDevelop.Ide.ItemProperties.Protech.Android PreferredExecutionTarget="Android.Samsung_Galaxy_Note_5" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Protech" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

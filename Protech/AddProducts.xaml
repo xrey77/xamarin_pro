@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:xct7="http://xamarin.com/schemas/2020/toolkit"
+    x:Class="Protech.AddProducts">
+    <ContentPage.Content>
+    <xct7:TabView TabStripPlacement="Bottom" TabStripHeight="100" IsSwipeEnabled="False" >
+        <xct7:TabViewItem Text="save" TabTapped="OnSaveProductsTapped" Icon="save.png">
+            <xct7:TabViewItem.Content>
+                <StackLayout>
+                    <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+                        <Label Text="Wincor-Nixdorf" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+                    </Frame>
+                    <Label Text="Add New Product" HorizontalTextAlignment="Center"  FontSize="Title" Padding="30,10,30,10"/>
+
+                </StackLayout>
+            </xct7:TabViewItem.Content>
+        </xct7:TabViewItem>
+
+       <xct7:TabViewItem Text="">
+            <xct7:TabViewItem.Content>
+            <Label Text=" "/>
+            </xct7:TabViewItem.Content>
+        </xct7:TabViewItem>
+
+       <xct7:TabViewItem Text="">
+            <xct7:TabViewItem.Content>
+            <Label Text=" "/>
+            </xct7:TabViewItem.Content>
+        </xct7:TabViewItem>
+
+       <xct7:TabViewItem Text="">
+            <xct7:TabViewItem.Content>
+            <Label Text=" "/>
+            </xct7:TabViewItem.Content>
+        </xct7:TabViewItem>
+    </xct7:TabView>        
+        
+    </ContentPage.Content>
+</ContentPage>

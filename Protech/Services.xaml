@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:xct1="http://xamarin.com/schemas/2020/toolkit"
+    x:Class="Protech.Services" Title="Wincor-Nixdorf">
+<ContentPage.ToolbarItems>
+    <ToolbarItem Text="Add Record"
+                 Clicked="OnServicesAddTapped"
+                 IconImageSource="add.png"
+                 Order="Primary"
+                 Priority="0" />
+</ContentPage.ToolbarItems>
+
+    <ContentPage.Content>
+
+    <xct1:TabView TabStripPlacement="Bottom" TabStripHeight="100" IsSwipeEnabled="False" >
+        <xct1:TabViewItem>
+            <xct1:TabViewItem.Content>
+                <StackLayout>
+
+                    <!--<Frame BackgroundColor="#2196F3" Padding="10" CornerRadius="0">
+                        <Label Grid.Row="2" Grid.Column="2" Text="Wincor-Nixdorf" HorizontalTextAlignment="Center" TextColor="White" FontSize="30"/>
+                    </Frame>-->
+                    <Label Text="Services" HorizontalTextAlignment="Center"  FontSize="Title" Padding="30,10,30,10"/>
+
+                    <ListView x:Name="ServicesList" IsVisible="True">  
+
+                       <ListView.ItemTemplate>  
+                            <DataTemplate>
+                                <TextCell Text="{Binding ServiceName}" CommandParameter="{Binding .}" Tapped="EditItem" TextColor="Black">
+                                    <!--<TextCell.ContextActions>
+
+                                        <MenuItem Text="Edit" IconImageSource="cross.png"
+                                                  CommandParameter="{Binding .}"
+                                                  />
+                                        </TextCell.ContextActions>-->
+                                </TextCell>
+                            </DataTemplate>
+                              
+                        </ListView.ItemTemplate>  
+                    </ListView>  
+
+                </StackLayout>
+            </xct1:TabViewItem.Content>
+        </xct1:TabViewItem>
+
+    </xct1:TabView>        
+    </ContentPage.Content>
+</ContentPage>

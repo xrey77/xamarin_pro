@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="Protech.EmailToken" Title="Diebold-Nixdorf">
+    <ContentPage.Resources>
+        <StyleSheet>
+            <![CDATA[
+            ^ContentPage {
+                background-color: black;
+            }
+            .register {
+               heigth: 40;
+               width: 70;
+            }
+            .title {
+              background-color: orange;
+              color: white;
+              margin-top: -20;
+              margin-left: -20;
+              margin-right: -20;
+            }
+            .xframe {
+               height: 150;
+               width: 300;
+            }
+            ]]>
+        </StyleSheet>
+     </ContentPage.Resources>
+
+    <ContentPage.Content>
+
+        
+        <AbsoluteLayout Margin="20" VerticalOptions="Center" HorizontalOptions="Center">
+
+         <Frame x:Name="Frame1" BackgroundColor="Coral" StyleClass="xframe" CornerRadius="20">
+             <Grid>
+                 <Grid.RowDefinitions>
+                     <RowDefinition Height="Auto"/>
+                     <RowDefinition Height="Auto"/>
+                     <RowDefinition Height="Auto"/>
+                     <RowDefinition Height="2*"/>
+                  </Grid.RowDefinitions>
+                 <Grid.ColumnDefinitions>
+                     <ColumnDefinition/>
+                 </Grid.ColumnDefinitions>
+                 <Label Text="eMail Token Validation" WidthRequest="500" HorizontalTextAlignment="Center" Grid.Row="0" Grid.Column="0" StyleClass="title" FontSize="Title"/>
+                 <Label Text="" Grid.Row="1" Grid.Column="0"/>
+                 <Entry x:Name="MailToken" Keyboard="Numeric" Placeholder="Enter eMail Token" PlaceholderColor="WhiteSmoke" TextColor="White" Grid.Row="2" Grid.Column="0"/>
+                 <ImageButton x:Name="mailTokenBtn" Source="submit.png" Grid.Row="3" Grid.Column="0" BackgroundColor="Transparent"
+                              HorizontalOptions="Start" Clicked="OnMailToken" />
+
+             </Grid>
+         </Frame>
+        </AbsoluteLayout>
+        
+    </ContentPage.Content>
+</ContentPage>

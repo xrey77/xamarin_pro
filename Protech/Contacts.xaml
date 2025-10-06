@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:xct3="http://xamarin.com/schemas/2020/toolkit"
+    x:Class="Protech.Contacts" Title="Diebold-Nixdorf" >
+
+<ContentPage.ToolbarItems>
+    <ToolbarItem Text="Add Record"
+                 Clicked="OnContactsAddTapped"
+                 IconImageSource="add.png"
+                 Order="Primary"
+                 Priority="0" />
+</ContentPage.ToolbarItems>
+
+    <ContentPage.Content>
+    <xct3:TabView
+        TabStripPlacement="Bottom"
+        TabStripHeight="100"
+        IsSwipeEnabled="False" >
+        <xct3:TabViewItem>
+            <xct3:TabViewItem.Content>
+                <StackLayout>
+                    <Label Text="Contacts" HorizontalTextAlignment="Center"  FontSize="Title" Padding="30,10,30,10"/>
+                    <ListView x:Name="ContactList" IsVisible="True">  
+
+                       <ListView.ItemTemplate>  
+                            <DataTemplate>
+                                <TextCell Text="{Binding Contact_Name}" CommandParameter="{Binding .}" Tapped="EditItem" TextColor="Black">
+                                    <!--<TextCell.ContextActions>
+
+                                        <MenuItem Text="Edit" IconImageSource="cross.png"
+                                                  CommandParameter="{Binding .}"
+                                                  />
+                                        </TextCell.ContextActions>-->
+                                </TextCell>
+                            </DataTemplate>
+                              
+                        </ListView.ItemTemplate>  
+                    </ListView>  
+
+
+                </StackLayout>
+            </xct3:TabViewItem.Content>
+        </xct3:TabViewItem>
+
+    </xct3:TabView>
+        
+    </ContentPage.Content>
+</ContentPage>

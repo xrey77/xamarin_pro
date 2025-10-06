@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+            xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
+             x:Class="Protech.MainPage">
+    <ContentPage.Resources>
+        <StyleSheet>
+            <![CDATA[
+            ^ContentPage {
+                background-color: #2196F3;
+            }
+
+            .user {
+               border-radius: 50%;
+            }
+            .frame1 {
+               margin-top: -400;
+               top: -400;
+             }
+            ]]>
+        </StyleSheet>
+     </ContentPage.Resources>
+
+    <ContentPage.Content>
+
+    <xct:TabView TabStripPlacement="Bottom" TabStripHeight="100" IsSwipeEnabled="False">
+        <xct:TabViewItem TabTapped="OnSettingsTapped" Text="settings" Icon="settings.png">
+            <xct:TabViewItem.Content>
+
+        <StackLayout>
+            <Frame BackgroundColor="#2196F3"  CornerRadius="0">
+                <StackLayout VerticalOptions="StartAndExpand">
+                   <Grid>
+                       <Grid.RowDefinitions>
+                           <RowDefinition Height="2*"/>
+                       </Grid.RowDefinitions>
+                       <Grid.ColumnDefinitions>
+                           <ColumnDefinition Width="50"/>
+                           <ColumnDefinition Width="250"/>
+                           <ColumnDefinition Width="50"/>
+                       </Grid.ColumnDefinitions>
+                       <Image Source="dn.png" HeightRequest="50" WidthRequest="50" HorizontalOptions="Start" Grid.Row="0" Grid.Column="0" />
+                       <Label Text="Diebold-Nixdorf"  TextColor="White" FontSize="Title" Grid.Row="0" Grid.Column="1"/>
+                       <Image x:Name="userpic" HeightRequest="50" WidthRequest="50" HorizontalOptions="End" StyleClass="user" Grid.Row="0" Grid.Column="2">
+                          <Image.GestureRecognizers>
+                                <TapGestureRecognizer
+                                        Tapped="OnLogInTapped"
+                                        NumberOfTapsRequired="1" />
+                          </Image.GestureRecognizers>
+                       </Image>
+                       
+                   </Grid>
+               </StackLayout>
+            </Frame>
+            <!--<Label Text="Navigation Menu" HorizontalTextAlignment="Center"  FontSize="Title" Padding="30,10,30,10"/>-->
+            <CarouselView ItemsSource="{Binding Monkeys}" Loop="False" BackgroundColor="#2196F3">
+                <CarouselView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout>
+                                       <Image Source="{Binding Image}"
+                                              Aspect="Fill"
+                                              HeightRequest="600"
+                                              WidthRequest="600"
+                                              HorizontalOptions="Center"/>
+
+                        </StackLayout>
+                    </DataTemplate>
+                </CarouselView.ItemTemplate>
+
+            </CarouselView>
+        </StackLayout>
+
+            </xct:TabViewItem.Content>
+        </xct:TabViewItem>
+
+
+        <xct:TabViewItem TabTapped="OnServicesTapped" Text="services" Icon="services.png">
+            <!--<xct:TabViewItem.Content>
+            </xct:TabViewItem.Content>-->
+
+        </xct:TabViewItem>
+
+       <xct:TabViewItem TabTapped="OnContactsTapped" Text="contacts" Icon="contacts.png" >
+        </xct:TabViewItem>
+
+       <xct:TabViewItem TabTapped="OnProductsTapped" Text="products" Icon="products.png" >
+        </xct:TabViewItem>
+
+    </xct:TabView>
+
+    </ContentPage.Content>
+
+</ContentPage>

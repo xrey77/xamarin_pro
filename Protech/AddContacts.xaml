@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:xct6="http://xamarin.com/schemas/2020/toolkit"
+    x:Class="Protech.AddContacts" Title="Diebold-Nixdorf" >
+    <ContentPage.Content>
+    <xct6:TabView TabStripPlacement="Bottom" TabStripHeight="100" IsSwipeEnabled="False" >
+        <xct6:TabViewItem>
+            <xct6:TabViewItem.Content>
+                <StackLayout Margin="20">
+                    <Label x:Name="addContactTitle" Text="" HorizontalTextAlignment="Center"  FontSize="Title" Padding="30,10,30,10"/>
+                    <Label x:Name="IdnoLabel" Text="Service ID" Grid.Row="1" Grid.Column="1" />
+                    <Entry x:Name="IDNO" IsReadOnly="True" Grid.Row="1" Grid.Column="2" WidthRequest="100" />
+
+                    <Entry Keyboard="Text" x:Name="ContactName"
+                        Placeholder="Enter Contact Name" Grid.Row="2" Grid.Column="1"
+                        />
+
+                    <Editor Keyboard="Text" x:Name="ContactAddress"
+                        AutoSize="TextChanges"
+                        Placeholder="Enter Business Address" Grid.Row="3" Grid.Column="1"
+                         />
+
+                    <Entry Keyboard="Email" x:Name="ContactEmail"
+                        Placeholder="Enter Email Address" Grid.Row="4" Grid.Column="1"
+                         />
+
+                    <Entry Keyboard="Text" x:Name="ContactMobileno"
+                        Placeholder="Mobile Number" Grid.Row="5" Grid.Column="1"
+                         />
+
+                    <ImageButton Source="save2.png" Clicked="OnSaveContactsTapped"
+                                 HorizontalOptions="Start"
+                                 />
+
+
+
+
+                </StackLayout>
+            </xct6:TabViewItem.Content>
+        </xct6:TabViewItem>
+
+    </xct6:TabView>        
+        
+    </ContentPage.Content>
+</ContentPage>

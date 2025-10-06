@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:xct4="http://xamarin.com/schemas/2020/toolkit"
+    x:Class="Protech.Products">
+    <ContentPage.Content>
+    <xct4:TabView TabStripPlacement="Bottom" TabStripHeight="100" IsSwipeEnabled="False">
+        <xct4:TabViewItem TabTapped="OnHomeTapped" Text="home" Icon="home.png">
+            <xct4:TabViewItem.Content>
+                <StackLayout>
+                    <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+                        <Label Text="Wincor-Nixdorf" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+                    </Frame>
+                    <Label Text="Products" HorizontalTextAlignment="Center"  FontSize="Title" Padding="30,10,30,10"/>
+
+                </StackLayout>
+            </xct4:TabViewItem.Content>
+        </xct4:TabViewItem>
+
+        <xct4:TabViewItem Text="add" TabTapped="OnProductsAddTapped" Icon="add.png">
+        </xct4:TabViewItem>
+
+        <xct4:TabViewItem Text="">
+            <xct4:TabViewItem.Content>
+              <Label Text=" "/>
+            </xct4:TabViewItem.Content>
+        </xct4:TabViewItem>
+
+        <xct4:TabViewItem Text="">
+            <xct4:TabViewItem.Content>
+              <Label Text=" "/>
+            </xct4:TabViewItem.Content>
+        </xct4:TabViewItem>
+    </xct4:TabView>
+        
+    </ContentPage.Content>
+</ContentPage>

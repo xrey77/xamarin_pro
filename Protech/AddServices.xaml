@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:xct5="http://xamarin.com/schemas/2020/toolkit"
+    xmlns:local="clr-namespace:Protech.Models"
+    x:Class="Protech.AddServices" Title="Wincor-Nixdorf">
+
+    <ContentPage.BindingContext>
+        <local:ServiceViewModel x:Name="serviceView"/>
+    </ContentPage.BindingContext>
+
+    <xct5:TabView TabStripPlacement="Bottom" TabStripHeight="100" IsSwipeEnabled="False" >
+        <xct5:TabViewItem>
+            <xct5:TabViewItem.Content>
+                <StackLayout Margin="20">
+                    <Label x:Name="addServiceTitle" Text="" HorizontalTextAlignment="Center"  FontSize="Title" Padding="30,10,30,10"/>
+                    <Label x:Name="IdnoLabel" Text="Service ID" Grid.Row="1" Grid.Column="1" />
+                    <Entry x:Name="IDNO" Text="" IsReadOnly="True" Grid.Row="1" Grid.Column="2" WidthRequest="100" />
+
+                    <Entry Keyboard="Text" x:Name="ServiceName"
+                        Text="{Binding ServiceName, Mode=TwoWay}" 
+                        Placeholder="Service Name" Grid.Row="2" Grid.Column="1"
+                        />
+
+                    <Editor Keyboard="Text" x:Name="Descriptions"
+                        AutoSize="TextChanges"
+                        Text="{Binding Descriptions, Mode=TwoWay}" 
+                        Placeholder="Descriptions" Grid.Row="3" Grid.Column="1"
+                         />
+
+                    <Entry Keyboard="Numeric" x:Name="ServiceFee"
+                        Text="{Binding ServiceFee, Mode=TwoWay}"
+                        Placeholder="Service Fee" Grid.Row="4" Grid.Column="1"
+                         />
+
+                    <Entry Keyboard="Text" x:Name="PaymentMode"
+                        Text="{Binding PaymentMode, Mode=TwoWay}" 
+                        Placeholder="Mode of Payment" Grid.Row="5" Grid.Column="1"
+                         />
+
+                    <ImageButton Source="save2.png" Clicked="OnSaveServicesTapped"
+                                 HorizontalOptions="Start"
+                                 />
+
+                </StackLayout>
+            </xct5:TabViewItem.Content>
+        </xct5:TabViewItem>
+
+    </xct5:TabView>        
+
+</ContentPage>

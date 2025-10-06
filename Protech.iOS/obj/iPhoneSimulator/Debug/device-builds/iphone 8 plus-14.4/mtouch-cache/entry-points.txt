@@ -1,0 +1,70 @@
+Function=SystemNative_ConvertErrorPlatformToPal
+	/Users/reynald/My-Programs/Xamarin/Protech/Protech.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8 plus-14.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_ConvertErrorPalToPlatform
+	/Users/reynald/My-Programs/Xamarin/Protech/Protech.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8 plus-14.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_StrErrorR
+	/Users/reynald/My-Programs/Xamarin/Protech/Protech.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8 plus-14.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetNonCryptographicallySecureRandomBytes
+	/Users/reynald/My-Programs/Xamarin/Protech/Protech.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8 plus-14.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_OpenDir
+	/Users/reynald/My-Programs/Xamarin/Protech/Protech.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8 plus-14.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetReadDirRBufferSize
+	/Users/reynald/My-Programs/Xamarin/Protech/Protech.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8 plus-14.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_ReadDirR
+	/Users/reynald/My-Programs/Xamarin/Protech/Protech.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8 plus-14.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_CloseDir
+	/Users/reynald/My-Programs/Xamarin/Protech/Protech.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8 plus-14.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_ReadLink
+	/Users/reynald/My-Programs/Xamarin/Protech/Protech.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8 plus-14.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Stat2
+	/Users/reynald/My-Programs/Xamarin/Protech/Protech.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8 plus-14.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_LStat2
+	/Users/reynald/My-Programs/Xamarin/Protech/Protech.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8 plus-14.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Symlink
+	/Users/reynald/My-Programs/Xamarin/Protech/Protech.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8 plus-14.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_CopyFile
+	/Users/reynald/My-Programs/Xamarin/Protech/Protech.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8 plus-14.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetEGid
+	/Users/reynald/My-Programs/Xamarin/Protech/Protech.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8 plus-14.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetEUid
+	/Users/reynald/My-Programs/Xamarin/Protech/Protech.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8 plus-14.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Link
+	/Users/reynald/My-Programs/Xamarin/Protech/Protech.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8 plus-14.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_MkDir
+	/Users/reynald/My-Programs/Xamarin/Protech/Protech.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8 plus-14.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Rename
+	/Users/reynald/My-Programs/Xamarin/Protech/Protech.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8 plus-14.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Unlink
+	/Users/reynald/My-Programs/Xamarin/Protech/Protech.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8 plus-14.4/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_timezone_get_local_name
+	/Users/reynald/My-Programs/Xamarin/Protech/Protech.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8 plus-14.4/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_timezone_get_data
+	/Users/reynald/My-Programs/Xamarin/Protech/Protech.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8 plus-14.4/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_GetFolderPath
+	/Users/reynald/My-Programs/Xamarin/Protech/Protech.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8 plus-14.4/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_log
+	/Users/reynald/My-Programs/Xamarin/Protech/Protech.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8 plus-14.4/mtouch-cache/1-Link/mscorlib.dll
+	/Users/reynald/My-Programs/Xamarin/Protech/Protech.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8 plus-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_start_wwan
+	/Users/reynald/My-Programs/Xamarin/Protech/Protech.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8 plus-14.4/mtouch-cache/1-Link/System.dll
+Function=xamarin_find_protocol_wrapper_type
+	/Users/reynald/My-Programs/Xamarin/Protech/Protech.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8 plus-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_release_block_on_main_thread
+	/Users/reynald/My-Programs/Xamarin/Protech/Protech.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8 plus-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_get_block_descriptor
+	/Users/reynald/My-Programs/Xamarin/Protech/Protech.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8 plus-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSend_IntPtr
+	/Users/reynald/My-Programs/Xamarin/Protech/Protech.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8 plus-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSendSuper_IntPtr
+	/Users/reynald/My-Programs/Xamarin/Protech/Protech.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8 plus-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=UIApplicationMain
+	/Users/reynald/My-Programs/Xamarin/Protech/Protech.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8 plus-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_release_managed_ref
+	/Users/reynald/My-Programs/Xamarin/Protech/Protech.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8 plus-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_set_gchandle_with_flags_safe
+	/Users/reynald/My-Programs/Xamarin/Protech/Protech.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8 plus-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=mono_pmip
+Function=xamarin_dyn_objc_msgSend
+Function=xamarin_dyn_objc_msgSendSuper
+Function=xamarin_dyn_objc_msgSend_stret
+Function=xamarin_dyn_objc_msgSendSuper_stret
